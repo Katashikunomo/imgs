@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicar Variable en Imagen</title>
+    <style>
+        /* Estilos para superponer elementos en la imagen */
+        .nombre-container {
+            position: relative;
+            width: 1700px; /* Ajusta según el ancho de la imagen */
+            height: 1236px; /* Ajusta según el alto de la imagen */
+        }
+
+        .nombre {
+            position: absolute;
+            color: #af682a;
+            padding: 5px;
+            font-size: 35px;
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        }
+
+        /* Ajusta las coordenadas según tus necesidades */
+        .nombre1 { top: 620px; left: 600px; }
+    </style>
+</head>
+<body>
+
+<!-- Imagen de fondo -->
+<div class="nombre-container">
+    <!-- <img src="https://alumnoscuauammx-my.sharepoint.com/:i:/g/personal/2203024384_alumnos_cua_uam_mx/Eb_UflFRky9Mm0WF1kg6e7oBpVFdeTkZy4uykyEAXnKQfA?e=BYnuWM" title="cert.jpg" alt="Imagen con Nombres"> -->
+    <!-- <iframe src="https://alumnoscuauammx.sharepoint.com/_layouts/15/embed.aspx?UniqueId=883195bd-9d3e-4db0-9a6e-e9e8af332aac" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="cert.jpg"></iframe> -->
+    <iframe src="https://alumnoscuauammx.sharepoint.com/_layouts/15/embed.aspx?UniqueId=883195bd-9d3e-4db0-9a6e-e9e8af332aac" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="cert.jpg"></iframe>
+    <!-- Nombres superpuestos en coordenadas específicas -->
+    <div class="nombre nombre1">{nombre}</div>
+</div>
+
+</body>
+</html>
