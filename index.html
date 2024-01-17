@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <title>CERTIFICADO</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ubicar Variable en Imagen</title>
     <style>
-        /* Estilos para superponer elementos en la imagen */
+        
         .nombre-container {
             position: relative;
-            width: 1700px; /* Ajusta según el ancho de la imagen */
-            height: 1236px; /* Ajusta según el alto de la imagen */
+            width: 500px; 
+            height: 236px; 
         }
 
         .nombre {
             position: absolute;
             color: #af682a;
             padding: 5px;
-            font-size: 35px;
+            font-size: 30px;
+            width: 100%;
             text-align: center;
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
         }
 
-        /* Ajusta las coordenadas según tus necesidades */
-        .nombre1 { top: 620px; left: 600px; }
+        .certifi{
+            height: 500px;
+            width: 500px;
+            border: 1px solid #843e00;
+            border-left: 40px solid #af682a;
+            margin: auto;
+        }
+        h1{
+            color: #af682a;
+            text-align: left;
+            margin-left: 50px;
+            padding-top: 50px;
+            border-bottom: 12px solid #843e00;
+        }
+
+        p{
+            font-size: 30px;
+            text-align: center;
+            margin-left: 50px;
+            color: #af682a;
+        }
+        
+        .nombre1 { top: 290px; left: 70px; }
     </style>
 </head>
 <body>
-
-<!-- Imagen de fondo -->
 <div class="nombre-container">
-    <!-- <img src="https://alumnoscuauammx-my.sharepoint.com/:i:/g/personal/2203024384_alumnos_cua_uam_mx/Eb_UflFRky9Mm0WF1kg6e7oBpVFdeTkZy4uykyEAXnKQfA?e=BYnuWM" title="cert.jpg" alt="Imagen con Nombres"> -->
-    <!-- <iframe src="https://alumnoscuauammx.sharepoint.com/_layouts/15/embed.aspx?UniqueId=883195bd-9d3e-4db0-9a6e-e9e8af332aac" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="cert.jpg"></iframe> -->
-    <iframe src="https://alumnoscuauammx.sharepoint.com/_layouts/15/embed.aspx?UniqueId=883195bd-9d3e-4db0-9a6e-e9e8af332aac" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="cert.jpg"></iframe>
-    <!-- Nombres superpuestos en coordenadas específicas -->
-    <div class="nombre nombre1">{nombre}</div>
+    <div class="certifi">
+        <h1>CERTIFICADO DE PARTICIPACION FOROS 2024</h1>
+        <p>por medio de la presente se otorga el certificado de participación a </p>
+        <div class="nombre nombre1">{nombre}</div>
+    </div>
 </div>
 
 </body>
